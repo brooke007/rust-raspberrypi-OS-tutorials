@@ -103,7 +103,7 @@ _**注意**: 如果在您的RPi4上无法正常工作，请尝试将`start4.elf`
 $ make miniterm
 ```
 
-> ❗ **注意**: `Miniterm`假设默认的串行设备名称为`/dev/ttyUSB0`。Depending on your
+> ❗ **注意**: `Miniterm`假设默认的串行设备名称为`/dev/ttyUSB0`。
 > 根据您的主机操作系统，设备名称可能会有所不同。例如，在`macOS`上，它可能是
 > `/dev/tty.usbserial-0001`之类的。在这种情况下，请明确提供设备名称：
 
